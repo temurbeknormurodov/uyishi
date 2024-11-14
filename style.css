@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 0;
+}
+.header div, .footer div {
+    margin: 0 10px;
+}
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+.box {
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 558px;
+    height: 452px;
+    font-size: 64px;
+}
